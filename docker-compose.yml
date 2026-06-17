@@ -1,0 +1,9 @@
+services:
+  steam-bot:
+    build: .
+    container_name: steam-downloader-bot
+    restart: unless-stopped
+    volumes:
+      - ./manifests:/app/manifests
+    # Optional command overrides (uncomment and replace values if needed)
+    # command: ["-token", "YOUR_TELEGRAM_TOKEN", "-apikey", "YOUR_STEAM_API_KEY"]

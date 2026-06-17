@@ -1,0 +1,13 @@
+# Binaries
+*.exe
+backend
+
+# Manifests and local downloads
+manifests/
+*.manifest
+*.zip
+*.lua
+
+# IDEs
+.idea/
+.vscode/

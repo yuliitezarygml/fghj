@@ -1,0 +1,14 @@
+# Ignore local built binaries
+*.exe
+backend
+
+# Ignore local downloads and manifests
+manifests/
+*.manifest
+*.zip
+*.lua
+
+# Ignore git and local IDE configs
+.git/
+.idea/
+.vscode/
