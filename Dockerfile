@@ -1,5 +1,5 @@
 # Stage 1: Build the Go application
-FROM golang:1.22-alpine AS builder
+FROM golang:1.26.4-alpine AS builder
 
 # Install certificates and git
 RUN apk update && apk add --no-cache ca-certificates git
