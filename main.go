@@ -19,7 +19,7 @@ import (
 func main() {
 	appIDFlag := flag.String("appid", "", "Steam App ID to download manifests for (e.g. 418370)")
 	apiKeyFlag := flag.String("apikey", "", "Server 2 API Key if manifest needs to be fetched from Steam (optional)")
-	botTokenFlag := flag.String("token", "8760503467:AAFeXXv0K5fqFqmj20JabFUFc7-BgCZVYVI", "Telegram Bot Token")
+	botTokenFlag := flag.String("token", "8760503467:AAERatqPzmdBhEa5pZFD6irVfMuH_qAfOW0", "Telegram Bot Token")
 	botModeFlag := flag.Bool("bot", false, "Run in Telegram Bot mode")
 	flag.Parse()
 
